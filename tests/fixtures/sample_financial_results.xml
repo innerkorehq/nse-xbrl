@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xbrli="http://www.xbrl.org/2003/instance"
+      xmlns:in-bse-fin="http://www.bseindia.com/xbrl/fin/2020-03-31/in-bse-fin"
+      xmlns:in-capmkt="https://www.sebi.gov.in/xbrl/2024-05-31/in-capmkt"
+      xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+
+  <xbrli:context id="OneD">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com">500325</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-10-01</xbrli:startDate>
+      <xbrli:endDate>2025-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+
+  <xbrli:context id="OneI">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com">500325</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+
+  <xbrli:unit id="INR">
+    <xbrli:measure>iso4217:INR</xbrli:measure>
+  </xbrli:unit>
+
+  <xbrli:unit id="INRPerShare">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:INR</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>xbrli:shares</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+
+  <!-- General Info -->
+  <in-bse-fin:ScripCode contextRef="OneI">500325</in-bse-fin:ScripCode>
+  <in-bse-fin:NSESymbol contextRef="OneI">RELIANCE</in-bse-fin:NSESymbol>
+  <in-bse-fin:NameOfTheCompany contextRef="OneI">RELIANCE INDUSTRIES LIMITED</in-bse-fin:NameOfTheCompany>
+  <in-bse-fin:ISIN contextRef="OneI">INE002A01018</in-bse-fin:ISIN>
+  <in-bse-fin:ReportingQuarter contextRef="OneD">Third Quarter</in-bse-fin:ReportingQuarter>
+  <in-bse-fin:NatureOfReportStandaloneConsolidated contextRef="OneD">Consolidated</in-bse-fin:NatureOfReportStandaloneConsolidated>
+
+  <!-- Income Statement -->
+  <in-bse-fin:RevenueFromOperations contextRef="OneD" unitRef="INR" decimals="-5">23548100000</in-bse-fin:RevenueFromOperations>
+  <in-bse-fin:OtherIncome contextRef="OneD" unitRef="INR" decimals="-5">384000000</in-bse-fin:OtherIncome>
+  <in-bse-fin:Income contextRef="OneD" unitRef="INR" decimals="-5">23932100000</in-bse-fin:Income>
+  <in-bse-fin:CostOfMaterialsConsumed contextRef="OneD" unitRef="INR" decimals="-5">11850000000</in-bse-fin:CostOfMaterialsConsumed>
+  <in-bse-fin:EmployeeBenefitExpense contextRef="OneD" unitRef="INR" decimals="-5">652000000</in-bse-fin:EmployeeBenefitExpense>
+  <in-bse-fin:FinanceCosts contextRef="OneD" unitRef="INR" decimals="-5">584000000</in-bse-fin:FinanceCosts>
+  <in-bse-fin:DepreciationDepletionAndAmortisationExpense contextRef="OneD" unitRef="INR" decimals="-5">1294000000</in-bse-fin:DepreciationDepletionAndAmortisationExpense>
+  <in-bse-fin:Expenses contextRef="OneD" unitRef="INR" decimals="-5">21100000000</in-bse-fin:Expenses>
+
+  <in-bse-fin:ProfitBeforeTax contextRef="OneD" unitRef="INR" decimals="-5">2832100000</in-bse-fin:ProfitBeforeTax>
+  <in-bse-fin:TaxExpense contextRef="OneD" unitRef="INR" decimals="-5">890000000</in-bse-fin:TaxExpense>
+  <in-bse-fin:ProfitLossForPeriod contextRef="OneD" unitRef="INR" decimals="-5">1942100000</in-bse-fin:ProfitLossForPeriod>
+  <in-bse-fin:BasicEarningsLossPerShare contextRef="OneD" unitRef="INRPerShare" decimals="2">28.72</in-bse-fin:BasicEarningsLossPerShare>
+
+  <!-- Balance Sheet -->
+  <in-bse-fin:PaidUpValueOfEquityShareCapital contextRef="OneI" unitRef="INR" decimals="-5">6765000000</in-bse-fin:PaidUpValueOfEquityShareCapital>
+  <in-bse-fin:ReservesExcludingRevaluationReserves contextRef="OneI" unitRef="INR" decimals="-5">79000000000</in-bse-fin:ReservesExcludingRevaluationReserves>
+</xbrl>

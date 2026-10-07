@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xbrli="http://www.xbrl.org/2003/instance"
+      xmlns:in-bse-cg="http://www.bseindia.com/xbrl/cg/2024-03-31/in-bse-cg">
+
+  <xbrli:context id="CurrentReport">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com">500209</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+
+  <in-bse-cg:ScripCode contextRef="CurrentReport">500209</in-bse-cg:ScripCode>
+  <in-bse-cg:NSESymbol contextRef="CurrentReport">INFY</in-bse-cg:NSESymbol>
+  <in-bse-cg:NameOfTheCompany contextRef="CurrentReport">INFOSYS LIMITED</in-bse-cg:NameOfTheCompany>
+  <in-bse-cg:ReportingQuarter contextRef="CurrentReport">Third Quarter</in-bse-cg:ReportingQuarter>
+  <in-bse-cg:DateOfReport contextRef="CurrentReport">2026-01-10</in-bse-cg:DateOfReport>
+  <in-bse-cg:RiskManagementCommittee contextRef="CurrentReport">true</in-bse-cg:RiskManagementCommittee>
+</xbrl>

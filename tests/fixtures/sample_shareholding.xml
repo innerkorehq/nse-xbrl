@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xbrli="http://www.xbrl.org/2003/instance"
+      xmlns:in-bse-shp="http://www.bseindia.com/xbrl/shp/2025-10-31/in-bse-shp"
+      xmlns:iso4217="http://www.xbrl.org/2003/iso4217">
+
+  <xbrli:context id="QuarterEnded">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.bseindia.com">532540</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2025-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+
+  <xbrli:unit id="Pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+
+  <xbrli:unit id="Shares">
+    <xbrli:measure>xbrli:shares</xbrli:measure>
+  </xbrli:unit>
+
+  <in-bse-shp:ScripCode contextRef="QuarterEnded">532540</in-bse-shp:ScripCode>
+  <in-bse-shp:NSESymbol contextRef="QuarterEnded">TCS</in-bse-shp:NSESymbol>
+  <in-bse-shp:NameOfTheCompany contextRef="QuarterEnded">TATA CONSULTANCY SERVICES LIMITED</in-bse-shp:NameOfTheCompany>
+  <in-bse-shp:ReportingQuarter contextRef="QuarterEnded">Third Quarter</in-bse-shp:ReportingQuarter>
+  <in-bse-shp:QuarterEnded contextRef="QuarterEnded">2025-12-31</in-bse-shp:QuarterEnded>
+
+  <!-- Shareholding Percentages -->
+  <in-bse-shp:ShareholdingOfPromoterAndPromoterGroupAsAPercentageOfTotalNumberOfShares contextRef="QuarterEnded" unitRef="Pure" decimals="4">71.77</in-bse-shp:ShareholdingOfPromoterAndPromoterGroupAsAPercentageOfTotalNumberOfShares>
+  <in-bse-shp:PublicShareholdingAsAPercentageOfTotalNumberOfShares contextRef="QuarterEnded" unitRef="Pure" decimals="4">28.23</in-bse-shp:PublicShareholdingAsAPercentageOfTotalNumberOfShares>
+  <in-bse-shp:PromoterSharesPledgedAsAPercentage contextRef="QuarterEnded" unitRef="Pure" decimals="4">0.00</in-bse-shp:PromoterSharesPledgedAsAPercentage>
+</xbrl>

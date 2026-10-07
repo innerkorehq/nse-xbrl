@@ -1,0 +1,843 @@
+[
+  {
+    "id": 1,
+    "name": "Regulation 13 (3) - Statement of Investor complaints",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor%20Complaints_0.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor%20Complaints_Taxonomy_31-05-2024.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor%20Complaints_Taxonomy_31-05-2024.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor%20Complaints_0.xlsm"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Statement of Investor complaints-REITS/InvITs",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Investor_Complaints_REITS_INVITS_20260114183253.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor_Complaints_REITS_INVITS_Taxonomy.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Investor_Complaints_REITS_INVITS_Taxonomy.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Investor_Complaints_REITS_INVITS_20260114183253.zip"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Regulation 27 (2) - Corporate Governance",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Corporate_Governance_20260318174444.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_Corporate_Governance_20260318174456.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_Corporate_Governance_20260318174456.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Corporate_Governance_20260318174444.zip"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Regulation 31 - Shareholding Pattern",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-09/NSE_Shareholding_Pattern_20260903123955.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/SHP_Taxonomy_20251031_20251229121107.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/SHP_Taxonomy_20251031_20251229121107.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-09/NSE_Shareholding_Pattern_20260903123955.zip"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Reconciliation of Share Capital Audit",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/NSE_Reconciliation_of_Share_Capital_Audit_20261005113159.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/Taxonomy_RecoShareCapital_20261005113324.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/Taxonomy_RecoShareCapital_20261005113324.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/NSE_Reconciliation_of_Share_Capital_Audit_20261005113159.zip"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Regulation 33 - Financial Results - Ind AS Integrated Filing - Financial - Ind AS",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Ind_AS_Equity_and_Debt_Format_20260605152622.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Ind_AS_20260706165729.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Ind%20AS%20Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28IndAS%29.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Ind%20AS%20Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28IndAS%29.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Ind_AS_Equity_and_Debt_Format_20260605152622.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Ind_AS_20260706165729.zip"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Regulation 33 - Financial Results - Other than Banks Integrated Filing -Financial - Other than Banks",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Other_than_Banks_Equity_And_Debt_Format_20260605152818.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Other_than_Banks_20260706165828.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Other%20Than%20Banks.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20%28finance%29%20other%20than%20bank.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20%28finance%29%20other%20than%20bank.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Other_than_Banks_Equity_And_Debt_Format_20260605152818.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Other_than_Banks_20260706165828.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Other%20Than%20Banks.zip"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Regulation 33 - Financial Results - REITS/InvITs",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/NSE_Financial_Results_REITs_InvITs_20261005110820.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/Taxonomy_Financial_Results_REITs_InvITs_20261005110936.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/Taxonomy_Financial_Results_REITs_InvITs_20261005110936.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-10/NSE_Financial_Results_REITs_InvITs_20261005110820.zip"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Regulation 33 - Financial Results - General Insurance Integrated Filing -Financial - General Insurance",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/General_Insurance_20260605152901.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_General_Insurance_20260706170006.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_General_Insurance_Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28General%20Insurance%29.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_General_Insurance_Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28General%20Insurance%29.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/General_Insurance_20260605152901.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_General_Insurance_20260706170006.zip"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Regulation 33 - Financial Results - Life Insurance Integrated Filing -Financial - Life Insurance",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Life_Insurance_20260605153020.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Life_Insurance_20260706170054.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results%20_Life_Insurance_Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28Life%20insurance%29.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results%20_Life_Insurance_Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28Life%20insurance%29.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Life_Insurance_20260605153020.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Life_Insurance_20260706170054.zip"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Regulation 33 - Financial Results - Banking Integrated Filing -Financial - Banking",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Banking_Equity_And_Debt_Format_20260605153116.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Banking_20260706170142.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Banking%20Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20Filing%20%28Finance%29%20Banking.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_Banking%20Taxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20Filing%20%28Finance%29%20Banking.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_Banking_Equity_And_Debt_Format_20260605153116.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/Integrated_Filing_Finance_Banking_20260706170142.zip"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Regulation 33 - Financial Results -NBFC Integrated Filing -Financial - NBFC",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_NBFC_Format_20260605153159.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-08/Integrated_Filling_Finance_NBFC_20260812170326.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_NBFCTaxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28NBFC%29.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Financial%20Results_NBFCTaxonomy.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Integrated%20filing%20finance%20%28NBFC%29.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Financial_Results_-_NBFC_Format_20260605153159.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-08/Integrated_Filling_Finance_NBFC_20260812170326.zip"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Regulation 44 - Voting Result",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Voting%20Results_1.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Voting_Taxonomy.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Voting_Taxonomy.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Voting%20Results_1.xlsm"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Regulation 7(2) and Regulation 7(3) under SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Prohibition_of_Insider_Trading_20260603180833.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Prohibition_of_Insider_Trading_20260603180833.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Prohibition_of_Insider_Trading_20260603180833.zip"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Regulation 32 (1) - Statement of deviation/variation",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement%20of%20Deviation.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement_of_Deviation_Taxonomy.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement_of_Deviation_Taxonomy.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement%20of%20Deviation.xlsm"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Regulation 24A - Secretarial Compliance Report",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Annual%20Secretarial%20Compliance%20Report.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/ASCR%20Taxonomy_30-09-2023.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/ASCR%20Taxonomy_30-09-2023.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Annual%20Secretarial%20Compliance%20Report.xlsm"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Regulation 60 - Record Date/ Date of closure of transfer book",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Reg60_20260113173913.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Regulation60_RecordDateTaxonomy.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Regulation60_RecordDateTaxonomy.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Reg60_20260113173913.zip"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Unit Holding Pattern",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/UnitHoldingPatternREITsInvITs_20260114183403.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/UHP_REIT_INVIT%20Taxonomy.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/UHP_REIT_INVIT%20Taxonomy.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/UnitHoldingPatternREITsInvITs_20260114183403.zip"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Regulation 23 (9) - Related Party Transactions",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Related_Party_Transaction_Report.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Related%20Party%20Transactions%20_2024.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Related%20Party%20Transactions%20_2024.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Related_Party_Transaction_Report.zip"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Business Responsibility and Sustainability Reporting",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/NSE_Business_Responsibility__Sustainability_Reporting_20260330194720.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_BRSR_20260330194931.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_BRSR_20260330194931.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/NSE_Business_Responsibility__Sustainability_Reporting_20260330194720.zip"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Credit Rating",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/CreditRating_20260113174131.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Credit%20rating.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Credit%20rating.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/CreditRating_20260113174131.zip"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Default History Information",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/DefaultHistory_20260113174225.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Default%20History%20Information.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Default%20History%20Information.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/DefaultHistory_20260113174225.zip"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Interest Payment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/InterestPaymentStatus_20260113174306.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Interest%20Payment.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20Interest%20Payment.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/InterestPaymentStatus_20260113174306.zip"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Redemption Payment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/RedemptionPaymentStatus_20260113174355.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/RPS%20Taxonomy%20centralized%20database.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/RPS%20Taxonomy%20centralized%20database.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/RedemptionPaymentStatus_20260113174355.zip"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Regulation 50- Prior Intimation of Board Meeting",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/NSE_Regulation_50_Prior_Intimation_of_Meeting_for_Debt_20251231172045.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/Taxonomy_Regulation_50_Prior_Intimation_Of_Board_Meeting_20251231172205.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/Taxonomy_Regulation_50_Prior_Intimation_Of_Board_Meeting_20251231172205.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2025-12/NSE_Regulation_50_Prior_Intimation_of_Meeting_for_Debt_20251231172045.zip"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Regulation 29- Prior Intimation of Board Meeting",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/PriorIntimationofBoardMeeting_20260216171202.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-%20Prior%20Intimation%20of%20Board%20Meeting.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-%20Prior%20Intimation%20of%20Board%20Meeting.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/PriorIntimationofBoardMeeting_20260216171202.zip"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Regulation 30- Change in directors, key managerial personnel (Managing Director, Chief Executive Officer, Chief Financial Officer, Company Secretary etc.), senior management, Auditor and Compliance Officer.",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Change_in_Management_-_General_20260421161213.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Changes_In_Management_20260421161224.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Changes_In_Management_20260421161224.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Change_in_Management_-_General_20260421161213.zip"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Regulation 30- Acquisition(s) (including agreement to acquire), Scheme of Arrangement (amalgamation/ merger/ demerger/restructuring), or sale or disposal of any unit(s), division(s) or subsidiary of the listed entity or any other restructuring",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/NSE_Regulation_30_Restructuring_20260420194537.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Regulation_30_Restructuring_31-08-2025_20260420194545.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Regulation_30_Restructuring_31-08-2025_20260420194545.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/NSE_Regulation_30_Restructuring_20260420194537.zip"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Regulation 30- Outcome of Board Meeting for Dividend, Bonus, Voluntary Delisting and Buyback",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Announcements_Pertaining_To_Outcome_Of_Board_Meeting_20260505171810.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Announcements_Pertaining_To_Outcome_Of_Board_Meeting_31-05-2024_20260505171835.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Announcements_Pertaining_To_Outcome_Of_Board_Meeting_31-05-2024_20260505171835.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Announcements_Pertaining_To_Outcome_Of_Board_Meeting_20260505171810.zip"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Regulation 30- Issuance or forfeiture of securities, split or consolidation of shares, buyback of securities, any restriction on transferability of securities or alteration in terms or structure of existing securities including forfeiture, reissue of forfeited securities, alteration of calls, redemption of securities, allotment of securities etc.",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Alteration_of_Capital_Reissue_of_Forfeited_Shares_and_Fund_Raising_20260505171632.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Alteration_Of_Capital_And_Fund_Raising_31-12-2023_20260505171703.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Alteration_Of_Capital_And_Fund_Raising_31-12-2023_20260505171703.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Alteration_of_Capital_Reissue_of_Forfeited_Shares_and_Fund_Raising_20260505171632.zip"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Regulation 30- Agreements (viz. shareholder agreement(s), joint venture agreement(s), family settlement agreement(s) (to the extent that it impacts management and control of the listed entity), agreement(s)/treaty(ies)/contract(s) with media companies) which are binding and not in normal course of business, revision(s) or amendment(s) and termination(s) thereof.",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Intimation_on_Agreements_20260505171924.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Announcement_For_Agreements_20260505171944.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Announcement_For_Agreements_20260505171944.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Intimation_on_Agreements_20260505171924.zip"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Regulation 30- Fraud/defaults by promoter or key managerial personnel or by listed entity or arrest of key managerial personnel or promoter.",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Fraud%20Default%20Arrest%20PARA%20A.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-%20Announcement%20for%20Fraud%20or%20Default.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-%20Announcement%20for%20Fraud%20or%20Default.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Fraud%20Default%20Arrest%20PARA%20A.xlsm"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Regulation 30- One time settlement with a bank",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Intimation%20on%20OTS%20and%20Restructuring%20Loans%20or%20Borrowings.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-One%20Time%20Settlement%20and%20RestructuringLoansOrBorrowings.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy%20-One%20Time%20Settlement%20and%20RestructuringLoansOrBorrowings.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Intimation%20on%20OTS%20and%20Restructuring%20Loans%20or%20Borrowings.xlsm"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Regulation 30- Resolution plan/ Restructuring in relation to loans/borrowings from banks/financial institutions (Inter-Creditors Agreement) and Corporate Debt Restructuring.",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Corporate%20Debt%20Restructuring.xlsm",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_Corporate_Debt_Restructuring_20260318165307.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Taxonomy_Corporate_Debt_Restructuring_20260318165307.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Corporate%20Debt%20Restructuring.xlsm"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Regulation 30- Notice of Shareholders Meeting",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Notice_of_Shareholders_Meeting_20260505171442.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Notice_Of_Shareholders_Meeting_31-05-2024_20260505171522.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Notice_Of_Shareholders_Meeting_31-05-2024_20260505171522.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Notice_of_Shareholders_Meeting_20260505171442.zip"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Regulation 30- Closure of Trading Window",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Closure_of_Trading_Window_20260318165723.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Closure_of_Trading_Window_20260226112113.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Closure_of_Trading_Window_20260318165723.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Closure_of_Trading_Window_20260226112113.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-03/Closure_of_Trading_Window_20260318165723.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Closure_of_Trading_Window_20260226112113.zip"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Regulation 39- Loss of Share Certificate and Issue of Duplicate Share Certificate or Letter of Confirmation",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Loss_of_Share_Certificate_and_Issue_of_Duplicate_Share_Certificate_or_Letter_of_Confirmation_20260505171018.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Loss_Of_Share_Certificate_And_Issue_Of_Duplicate_Share_Certificate_Or_Letter_Of_Confirmation_20260505171106.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Loss_Of_Share_Certificate_And_Issue_Of_Duplicate_Share_Certificate_Or_Letter_Of_Confirmation_20260505171106.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Loss_of_Share_Certificate_and_Issue_of_Duplicate_Share_Certificate_or_Letter_of_Confirmation_20260505171018.zip"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Regulation 30- Corporate Insolvency Resolution Process",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Corporate_Insolvency_Resolution_Process_20260505170756.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Corporate_Insolvency_Resolution_Process_27-09-2023_20260505170821.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Corporate_Insolvency_Resolution_Process_27-09-2023_20260505170821.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Corporate_Insolvency_Resolution_Process_20260505170756.zip"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Regulation 33- Statement on Impact of Audit Qualifications/Unmodified Opinion",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement%20on%20Impact%20of%20Audit%20Qualifications%20%26%20Unmodified%20Opinion.xlsm",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Statement_on_Impact_of_Audit_Qualifications__Unmodified_Opinion_20260225104437.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement%20on%20Impact%20of%20Audit%20Qualifications%20%26%20Unmodified%20Opinion.xlsm",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Statement_on_Impact_of_Audit_Qualifications__Unmodified_Opinion_20260225104437.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Statement%20on%20Impact%20of%20Audit%20Qualifications%20%26%20Unmodified%20Opinion.xlsm",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Statement_on_Impact_of_Audit_Qualifications__Unmodified_Opinion_20260225104437.zip"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Insider - Trading Plan",
+    "all_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Trading%20Plan.xlsm",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Trading_Plan_31-08-2024.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Trading_Plan_31-08-2024.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Trading%20Plan.xlsm"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Integrated Filing - Governance (comprising Regulation 13(3): Statement on redressal of investor grievances and 27(2): Compliance Report on Corporate Governance and few provisions of Regulation 30)",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/IntegratedGovernancejan032026_20260722165150.zip",
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Integrated%20Governance_0.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Taxonomy_Integrated%20Governance_0.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-07/IntegratedGovernancejan032026_20260722165150.zip"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Regulation 30-Awarding, bagging/ receiving of orders/contracts",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Awarding_bagging_receiving_of_orders_or_contracts_20260505172109.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Awarding_Or_Bagging_Or_Receiving_Of_Orders_Or_Contracts_20260505172127.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Awarding_Or_Bagging_Or_Receiving_Of_Orders_Or_Contracts_20260505172127.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Awarding_bagging_receiving_of_orders_or_contracts_20260505172109.zip"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "ISD for buy-back of equity shares from the Open Market Route",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ISD_for_buyback_of_equity_shares_from_the_Open_Market_Route_20260216171421.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Buyback_Open_Market_Taxonomy_20260114155914.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Buyback_Open_Market_Taxonomy_20260114155914.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ISD_for_buyback_of_equity_shares_from_the_Open_Market_Route_20260216171421.zip"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "ISD for buy-back of equity shares through Tender Offer Route",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ISD_for_buyback_of_equity_shares_through_Tender_Offer_Route_20260216171454.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Buyback_Tender_Route_Taxonomy_20260114155943.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-01/Buyback_Tender_Route_Taxonomy_20260114155943.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ISD_for_buyback_of_equity_shares_through_Tender_Offer_Route_20260216171454.zip"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Initial Public Offer (IPO) In-principle",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/IPO_INPRINCIPAL_20260227161222.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Taxonomy_In-Principle_20260227161313.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Taxonomy_In-Principle_20260227161313.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/IPO_INPRINCIPAL_20260227161222.zip"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "ADR_GDR_In-principle and Post Allotment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ADR_GDR_IP_and_Post_Allotment_20260227174112.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ADR_GDR_Taxonomy_20260227174227.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ADR_GDR_Taxonomy_20260227174227.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/ADR_GDR_IP_and_Post_Allotment_20260227174112.zip"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "FCCB_In-principle and Post Allotment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/FCCB_IP_and_Post_Allotment_20260227174359.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/FCCB_Taxonomy_20260227174451.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/FCCB_Taxonomy_20260227174451.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/FCCB_IP_and_Post_Allotment_20260227174359.zip"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Preferential Issue_In-principle and Post Allotment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Preferential_Issue_IP_and_Post_Allotment_20260227174603.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Preferential_Issue_Taxonomy_20260227174648.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Preferential_Issue_Taxonomy_20260227174648.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Preferential_Issue_IP_and_Post_Allotment_20260227174603.zip"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "QIP_In-principle and Post Allotment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_IP_and_Post_Allotment_20260227174853.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_Taxonomy_20260227175525.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_Taxonomy_20260227175525.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_Taxonomy_20260227175525.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_Taxonomy_20260227175525.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/QIP_IP_and_Post_Allotment_20260227174853.zip"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Right Issue_In-principle and Post Allotment",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Right_Issue_IP_and_Post_Allotment_20260227175049.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Rights_Issue_Taxonomy_20260227175140.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Rights_Issue_Taxonomy_20260227175140.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Right_Issue_IP_and_Post_Allotment_20260227175049.zip"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Initial Public Offer (IPO) Final Listing",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Listing_Stage_20260227192352.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Taxonomy_Listing_Stage_20260227192731.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Taxonomy_Listing_Stage_20260227192731.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-02/Listing_Stage_20260227192352.zip"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Resignation of Director/ KMP/ SMP/ Compliance Officer",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Resignation_of_Director_KMP_SMP_Compliance_Officer_20260318170421_20260421161123.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Resignation_Of_Director_Or_KMP_Or_SMP_Or_Compliance_Officer_20260420194028.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Resignation_Of_Director_Or_KMP_Or_SMP_Or_Compliance_Officer_20260420194028.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Resignation_of_Director_KMP_SMP_Compliance_Officer_20260318170421_20260421161123.zip"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Regulation 30-Resignation of Statutory Auditor",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Resignation_of_Statutory_Auditor_20260318170515_20260420193718.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Resignation_Of_Statutory_Auditor_20260420193919.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Taxonomy_Resignation_Of_Statutory_Auditor_20260420193919.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/Resignation_of_Statutory_Auditor_20260318170515_20260420193718.zip"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Regulation 30 - Forensic Audit-Para A",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Forensic_Audit_Para_A_Sub-para_17_of_Part_A_of_Schedule_III_20260505172451.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Forensic_Audit_20260505172506.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Taxonomy_Forensic_Audit_20260505172506.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/Forensic_Audit_Para_A_Sub-para_17_of_Part_A_of_Schedule_III_20260505172451.zip"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Actions initiated/taken or orders passed (Sub para 19 & 20 - Para A)",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Actions_initiated_taken_or_orders_passed_sub_para_19_and_20_Para_A_20260601184943.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Action_Initiation_Or_Action_Taken_Or_Order_Passed_20260601185024.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Action_Initiation_Or_Action_Taken_Or_Order_Passed_20260601185024.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Actions_initiated_taken_or_orders_passed_sub_para_19_and_20_Para_A_20260601184943.zip"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Analyst/Investor Meet - Para A",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Schedule_of_Analysts_or_Institutional_Investors_Meet_20260601185004.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Schedule_Of_Analysts_Or_Institutional_Investors_Meeting_20260601185113.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Schedule_Of_Analysts_Or_Institutional_Investors_Meeting_20260601185113.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Schedule_of_Analysts_or_Institutional_Investors_Meet_20260601185004.zip"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Violation of Code of Conduct under SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Violation_related_to_Code_of_Conduct_20260603180517.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Violation_Related_To_Code_of_ConductCoC_20260603180612.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Violation_Related_To_Code_of_ConductCoC_20260603180612.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Violation_related_to_Code_of_Conduct_20260603180517.zip"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Regulation 30 - Para B of Part A of Schedule III of SEBI LODR 2015",
+    "all_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/NSE_Regulation_30_-_Para_B_of_Part_A_of_Schedule_III_of_SEBI_LODR_2015_1_20260619193818.zip",
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Regulation_30_Para_B_Of_Part_A_Of_Schedule_III_1_20260619193843.zip"
+    ],
+    "taxonomy_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/Taxonomy_Regulation_30_Para_B_Of_Part_A_Of_Schedule_III_1_20260619193843.zip"
+    ],
+    "utility_links": [
+      "https://nsearchives.nseindia.com//web/mediaattachment/2026-06/NSE_Regulation_30_-_Para_B_of_Part_A_of_Schedule_III_of_SEBI_LODR_2015_1_20260619193818.zip"
+    ]
+  }
+]
