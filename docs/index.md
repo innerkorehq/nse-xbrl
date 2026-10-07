@@ -49,25 +49,31 @@ Built-in automated registry with on-demand schema (`.xsd`) and label linkbase (`
 
 ---
 
-## Quick Example
+## Quick Example: Auto-Detect & Parse
+
+Give any XML filing (file path, raw XML string, or bytes) to `parse` or `parse_sync`, and it will automatically detect the filing type and return ready-to-use typed data:
 
 ```python
 import asyncio
-from nse_xbrl_parser import parse_file, FinancialResultsModel
+from nse_xbrl_parser import parse, FilingFormat
 
 async def main():
-    # 1. Parse any XBRL XML filing
-    instance = await parse_file("RELIANCE_Q3_Results.xml")
+    # 1. Parse ANY filing XML - auto-detects format!
+    filing = await parse("RELIANCE_Q3_Results.xml")
 
-    # 2. Universal Fact Lookups
-    print("Company:", instance.get_fact_value("NameOfTheCompany"))
-    print("Revenue:", instance.get_fact_float("RevenueFromOperations"))
+    # 2. Key Metadata & Auto-Detected Type
+    print("Detected Category:", filing.format)
+    print("Company:", filing.company_name)
+    print("Scrip Code:", filing.scrip_code)
 
-    # 3. High-level Typed Adapter
-    financials = FinancialResultsModel.from_instance(instance)
-    print(f"Profit After Tax: ₹{financials.profit_after_tax:,.2f}")
-    print(f"Basic EPS: ₹{financials.basic_eps:.2f}")
-    print(f"EBITDA: ₹{financials.ebitda:,.2f}")
+    # 3. Access Strongly-Typed Regulatory Data
+    if filing.format == FilingFormat.FINANCIAL_RESULTS:
+        print(f"Revenue: ₹{filing.data.revenue_from_operations:,.2f}")
+        print(f"Profit After Tax: ₹{filing.data.profit_after_tax:,.2f}")
+        print(f"Basic EPS: ₹{filing.data.basic_eps:.2f}")
+
+    # Or convert directly to Python dictionary
+    summary = filing.to_dict()
 
 asyncio.run(main())
 ```

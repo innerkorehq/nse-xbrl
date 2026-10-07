@@ -7,6 +7,7 @@ from __future__ import annotations
 
 from .corporate_governance import CorporateGovernanceModel, DirectorInfo
 from .financial_results import FinancialResultsModel
+from .investor_complaints import InvestorComplaintsModel
 from .shareholding import ShareholderCategory, ShareholdingPatternModel
 
 __all__ = [
@@ -15,4 +16,5 @@ __all__ = [
     "ShareholderCategory",
     "CorporateGovernanceModel",
     "DirectorInfo",
+    "InvestorComplaintsModel",
 ]

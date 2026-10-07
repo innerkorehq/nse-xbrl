@@ -3,6 +3,7 @@
 ```{toctree}
 :maxdepth: 2
 
+facade
 core
 taxonomy
 typed

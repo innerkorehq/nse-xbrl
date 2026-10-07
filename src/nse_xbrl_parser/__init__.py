@@ -17,33 +17,51 @@ from .taxonomy.downloader import AsyncTaxonomyDownloader
 from .taxonomy.linkbase import ConceptLabel, TaxonomyLinkbase
 from .taxonomy.registry import TaxonomyInfo, TaxonomyRegistry
 from .taxonomy.schema import SchemaElement, TaxonomySchema
+from .facade import FilingFormat, ParsedFiling, XBRL, detect_filing_format
 from .typed.corporate_governance import CorporateGovernanceModel
 from .typed.financial_results import FinancialResultsModel
+from .typed.investor_complaints import InvestorComplaintsModel
 from .typed.shareholding import ShareholdingPatternModel
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 _parser = AsyncXBRLParser()
+
+
+async def parse(
+    source: Union[str, bytes, Path],
+    source_name: str | None = None,
+) -> ParsedFiling:
+    """Super-simple facade function: auto-detects filing type and parses any XML asynchronously.
+    
+    Args:
+        source: File path, XML string, or raw XML bytes.
+        source_name: Optional file or tracking name.
+        
+    Returns:
+        ParsedFiling: Unified result with .format, .data, and direct field access.
+    """
+    return await XBRL.parse(source, source_name=source_name)
+
+
+def parse_sync(
+    source: Union[str, bytes, Path],
+    source_name: str | None = None,
+) -> ParsedFiling:
+    """Synchronous facade function: auto-detects filing type and parses any XML."""
+    return XBRL.parse_sync(source, source_name=source_name)
 
 
 async def parse_xbrl(
     content: Union[str, bytes],
     source_name: str | None = None,
 ) -> XBRLInstance:
-    """Parse an XBRL XML instance document asynchronously.
-    
-    Args:
-        content: XML string or raw bytes.
-        source_name: Optional file or URL name for tracking.
-        
-    Returns:
-        XBRLInstance: Universal representation of facts, contexts, and units.
-    """
+    """Parse an XBRL XML instance document asynchronously into a universal XBRLInstance."""
     return await _parser.parse(content, source_name=source_name)
 
 
 async def parse_file(file_path: Union[str, Path]) -> XBRLInstance:
-    """Parse a local XBRL file asynchronously."""
+    """Parse a local XBRL file asynchronously into a universal XBRLInstance."""
     return await _parser.parse_file(file_path)
 
 
@@ -56,11 +74,17 @@ def parse_xbrl_sync(
     content: Union[str, bytes],
     source_name: str | None = None,
 ) -> XBRLInstance:
-    """Synchronous parsing convenience function."""
+    """Synchronous universal parsing convenience function."""
     return _parser.parse_sync(content, source_name=source_name)
 
 
 __all__ = [
+    "parse",
+    "parse_sync",
+    "XBRL",
+    "ParsedFiling",
+    "FilingFormat",
+    "detect_filing_format",
     "parse_xbrl",
     "parse_file",
     "parse_archive",
@@ -82,5 +106,6 @@ __all__ = [
     "FinancialResultsModel",
     "ShareholdingPatternModel",
     "CorporateGovernanceModel",
+    "InvestorComplaintsModel",
     "AsyncNSEClient",
 ]

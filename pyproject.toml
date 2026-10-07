@@ -1,6 +1,6 @@
 [project]
 name = "nse-xbrl-parser"
-version = "0.1.0"
+version = "0.2.0"
 description = "Async Python 3.14 library for parsing XBRL Filing Information of NSE & BSE across all taxonomies"
 readme = "README.md"
 authors = [

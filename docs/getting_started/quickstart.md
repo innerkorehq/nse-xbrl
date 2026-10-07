@@ -2,9 +2,50 @@
 
 This guide gets you up and running with `nse-xbrl-parser` in 2 minutes.
 
-## 1. Parsing a Local XBRL File
+## 1. Auto-Detect and Parse Any Filing (Recommended)
 
-You can parse any XBRL file asynchronously using `parse_file`:
+Give any XML file path, raw string, or bytes to `parse` (async) or `parse_sync` (synchronous). The library automatically detects whether the document is Financial Results, Shareholding Pattern, Corporate Governance, or Investor Complaints, and gives you direct access to typed data or universal facts:
+
+```python
+import asyncio
+from nse_xbrl_parser import parse, FilingFormat
+
+async def main():
+    # Pass a path, raw XML string, or bytes - it auto-detects everything!
+    filing = await parse("filing.xml")
+
+    print("Detected Format:", filing.format)
+    # Output: FilingFormat.FINANCIAL_RESULTS, SHAREHOLDING_PATTERN, etc.
+
+    print("Company:", filing.company_name)
+    print("Scrip Code:", filing.scrip_code)
+
+    # Access the typed model directly via .data
+    if filing.format == FilingFormat.FINANCIAL_RESULTS:
+        print(f"Revenue: ₹{filing.data.revenue_from_operations:,.2f}")
+        print(f"Net Profit: ₹{filing.data.profit_after_tax:,.2f}")
+        print(f"Basic EPS: ₹{filing.data.basic_eps:.2f}")
+
+    # Or export everything as a clean dictionary
+    summary = filing.to_dict()
+
+asyncio.run(main())
+```
+
+Synchronous one-liner:
+
+```python
+from nse_xbrl_parser import parse_sync
+
+filing = parse_sync("filing.xml")
+print(filing.format, filing.company_name, filing.data)
+```
+
+---
+
+## 2. Universal XBRL Fact Engine
+
+If you are working with arbitrary or custom filings, or want to query the underlying facts directly, access `filing.raw_instance` or use `parse_file`:
 
 ```python
 import asyncio
@@ -24,20 +65,9 @@ async def main():
 asyncio.run(main())
 ```
 
-If you prefer synchronous parsing:
-
-```python
-from nse_xbrl_parser import parse_xbrl_sync
-
-with open("sample_filing.xml", "rb") as f:
-    instance = parse_xbrl_sync(f.read())
-
-print(instance.get_fact_value("ScripCode"))
-```
-
 ---
 
-## 2. Working with Financial Results
+## 3. Working with Financial Results
 
 Indian financial results follow standardized Ind AS / Banking / Insurance taxonomy tags. Convert the universal `XBRLInstance` into a typed `FinancialResultsModel`:
 
@@ -60,7 +90,7 @@ print(f"Basic EPS: ₹{model.basic_eps:.2f}")
 
 ---
 
-## 3. Accessing Taxonomy Information
+## 4. Accessing Taxonomy Information
 
 Inspect any of the 58 NSE/BSE regulatory taxonomies:
 

@@ -43,14 +43,50 @@ pip install nse-xbrl-parser
 
 ## Quickstart
 
-### 1. Parse an XBRL Filing Asynchronously
+### 1. Auto-Detect and Parse Any Filing (Super-Simple Facade)
+
+Give any XML file path, string, or bytes to `parse` (or `parse_sync`). The engine automatically detects the filing format and provides direct typed models:
+
+```python
+import asyncio
+from nse_xbrl_parser import parse, FilingFormat
+
+async def main():
+    # Auto-detects Financial Results, Shareholding Pattern, Corporate Governance, etc.
+    filing = await parse("filing.xml")
+
+    print("Detected Category:", filing.format)
+    print("Company:", filing.company_name)
+    print("Scrip Code:", filing.scrip_code)
+
+    # Typed model is immediately available via .data
+    if filing.format == FilingFormat.FINANCIAL_RESULTS:
+        print(f"Revenue: ₹{filing.data.revenue_from_operations:,.2f}")
+        print(f"PAT: ₹{filing.data.profit_after_tax:,.2f}")
+        print(f"Basic EPS: ₹{filing.data.basic_eps:.2f}")
+
+    # Or serialize entire filing to dictionary
+    data_dict = filing.to_dict()
+
+asyncio.run(main())
+```
+
+Synchronous one-liner:
+```python
+from nse_xbrl_parser import parse_sync
+
+filing = parse_sync("filing.xml")
+print(filing.format, filing.company_name, filing.data)
+```
+
+### 2. Universal Fact Lookups & Core Parser
 
 ```python
 import asyncio
 from nse_xbrl_parser import parse_file, FinancialResultsModel
 
 async def main():
-    # Parse any filing XML
+    # Parse into low-level universal XBRLInstance
     instance = await parse_file("RELIANCE_Financial_Results.xml")
 
     # Universal Fact Lookups
@@ -67,7 +103,7 @@ async def main():
 asyncio.run(main())
 ```
 
-### 2. Inspect Any of the 58 NSE/BSE Taxonomies
+### 3. Inspect Any of the 58 NSE/BSE Taxonomies
 
 ```python
 import asyncio
@@ -94,7 +130,7 @@ async def main():
 asyncio.run(main())
 ```
 
-### 3. Parse Shareholding Patterns & Corporate Governance
+### 4. Parse Shareholding Patterns & Corporate Governance
 
 ```python
 from nse_xbrl_parser import parse_xbrl_sync, ShareholdingPatternModel, CorporateGovernanceModel
