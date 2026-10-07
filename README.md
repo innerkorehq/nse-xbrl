@@ -1,6 +1,12 @@
 # nse-xbrl
 
+[![Documentation](https://img.shields.io/badge/docs-online-blue.svg)](https://innerkorehq.github.io/nse-xbrl/)
+[![Python 3.12 | 3.13 | 3.14](https://img.shields.io/badge/python-3.12%20|%203.13%20|%203.14-blue.svg)](https://github.com/innerkorehq/nse-xbrl)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Modern Asynchronous Python 3.14 library for parsing XBRL Filing Information across **all 58 taxonomies** of the National Stock Exchange of India (NSE) and Bombay Stock Exchange (BSE).
+
+📖 **[Read the Documentation](https://innerkorehq.github.io/nse-xbrl/)**
 
 ---
 
