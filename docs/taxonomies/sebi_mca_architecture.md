@@ -15,4 +15,4 @@ Historically, filers prepared separate disclosure files for BSE and NSE. Since 2
 
 Because these schemas are standardized:
 1. An XBRL filing generated using the official BSE Excel utility can be parsed identically to one submitted via NSE NEAPS.
-2. The `nse-xbrl` library abstracts taxonomy differences by utilizing local tag lookups and linkbase mapping.
+2. The `nse-xbrl-parser` library abstracts taxonomy differences by utilizing local tag lookups and linkbase mapping.

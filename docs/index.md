@@ -1,4 +1,4 @@
-# nse-xbrl Documentation
+# nse-xbrl-parser Documentation
 
 ```{toctree}
 :maxdepth: 2

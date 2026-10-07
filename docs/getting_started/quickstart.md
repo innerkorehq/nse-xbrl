@@ -1,6 +1,6 @@
 # Quickstart Guide
 
-This guide gets you up and running with `nse-xbrl` in 2 minutes.
+This guide gets you up and running with `nse-xbrl-parser` in 2 minutes.
 
 ## 1. Parsing a Local XBRL File
 

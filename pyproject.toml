@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Async Python 3.14 library for parsing XBRL Filing Information of NSE & BSE across all taxonomies"
 readme = "README.md"
 authors = [
-    { name = "innerkorehq" }
+    { name = "Innerkore Technologies", email = "info@innerkore.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [

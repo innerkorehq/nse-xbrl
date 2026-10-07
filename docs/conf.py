@@ -7,9 +7,9 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath("../src"))
 
-project = "nse-xbrl"
-copyright = "2026, innerkorehq"
-author = "innerkorehq"
+project = "nse-xbrl-parser"
+copyright = "2026, Innerkore Technologies"
+author = "Innerkore Technologies"
 release = "0.1.0"
 version = "0.1.0"
 
@@ -58,7 +58,7 @@ myst_heading_anchors = 3
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ["_static"]
-html_title = "nse-xbrl documentation"
+html_title = "nse-xbrl-parser documentation"
 
 html_theme_options = {
     "github_url": "https://github.com/innerkorehq/nse-xbrl",

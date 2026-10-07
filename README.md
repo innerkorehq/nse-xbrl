@@ -1,5 +1,6 @@
-# nse-xbrl
+# nse-xbrl-parser
 
+[![PyPI version](https://img.shields.io/pypi/v/nse-xbrl-parser.svg)](https://pypi.org/project/nse-xbrl-parser/)
 [![Documentation](https://img.shields.io/badge/docs-online-blue.svg)](https://innerkorehq.github.io/nse-xbrl/)
 [![Python 3.12 | 3.13 | 3.14](https://img.shields.io/badge/python-3.12%20|%203.13%20|%203.14-blue.svg)](https://github.com/innerkorehq/nse-xbrl)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
