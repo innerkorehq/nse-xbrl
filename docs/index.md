@@ -1,50 +1,18 @@
-# nse-xbrl-parser Documentation
+# NSE XBRL Parser Documentation
 
 ```{toctree}
 :maxdepth: 2
-:caption: Getting Started
 :hidden:
 
-getting_started/installation
-getting_started/quickstart
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: User Guides
-:hidden:
-
-guides/universal_parsing
-guides/financial_results
-guides/shareholding_pattern
-guides/corporate_governance
-guides/taxonomy_registry
-guides/async_client
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: Taxonomy Reference
-:hidden:
-
-taxonomies/all_taxonomies
-taxonomies/sebi_mca_architecture
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: API Reference
-:hidden:
-
-api/core
-api/taxonomy
-api/typed
-api/client
+getting_started/index
+guides/index
+taxonomies/index
+api/index
 ```
 
 ---
 
-**nse-xbrl** is a modern, high-performance asynchronous Python 3.14 library designed to discover, download, parse, and normalize **all XBRL filings and taxonomies** published across the National Stock Exchange of India (NSE) and Bombay Stock Exchange (BSE).
+**nse-xbrl-parser** is a modern, high-performance asynchronous Python 3.14 library designed to discover, download, parse, and normalize **all XBRL filings and taxonomies** published across the National Stock Exchange of India (NSE) and Bombay Stock Exchange (BSE).
 
 ---
 

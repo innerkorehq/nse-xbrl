@@ -58,13 +58,13 @@ myst_heading_anchors = 3
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ["_static"]
-html_title = "nse-xbrl-parser documentation"
+html_title = "NSE XBRL Parser"
 
 html_theme_options = {
-    "github_url": "https://github.com/innerkorehq/nse-xbrl",
     "show_prev_next": True,
     "navbar_start": ["navbar-logo"],
-    "navbar_align": "left",
+    "navbar_align": "content",
+    "header_links_before_dropdown": 4,
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navigation_with_keys": True,
     "collapse_navigation": False,
