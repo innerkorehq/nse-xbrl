@@ -77,7 +77,7 @@ html_theme_options = {
         },
         {
             "name": "PyPI",
-            "url": "https://pypi.org/project/nse-xbrl/",
+            "url": "https://pypi.org/project/nse-xbrl-parser/",
             "icon": "fa-custom fa-pypi",
             "type": "fontawesome",
         },

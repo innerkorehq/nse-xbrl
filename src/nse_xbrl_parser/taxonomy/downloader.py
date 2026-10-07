@@ -1,5 +1,5 @@
 """
-nse_xbrl.taxonomy.downloader
+nse_xbrl_parser.taxonomy.downloader
 
 Asynchronous downloader and cache manager for official NSE/BSE taxonomy archives.
 """
@@ -21,7 +21,7 @@ class AsyncTaxonomyDownloader:
 
     def __init__(self, cache_dir: Optional[Path] = None) -> None:
         if cache_dir is None:
-            cache_dir = Path.home() / ".cache" / "nse_xbrl" / "taxonomies"
+            cache_dir = Path.home() / ".cache" / "nse_xbrl_parser" / "taxonomies"
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self._schema_cache: Dict[int, TaxonomySchema] = {}

@@ -8,7 +8,7 @@ You can parse any XBRL file asynchronously using `parse_file`:
 
 ```python
 import asyncio
-from nse_xbrl import parse_file
+from nse_xbrl_parser import parse_file
 
 async def main():
     instance = await parse_file("sample_filing.xml")
@@ -27,7 +27,7 @@ asyncio.run(main())
 If you prefer synchronous parsing:
 
 ```python
-from nse_xbrl import parse_xbrl_sync
+from nse_xbrl_parser import parse_xbrl_sync
 
 with open("sample_filing.xml", "rb") as f:
     instance = parse_xbrl_sync(f.read())
@@ -42,7 +42,7 @@ print(instance.get_fact_value("ScripCode"))
 Indian financial results follow standardized Ind AS / Banking / Insurance taxonomy tags. Convert the universal `XBRLInstance` into a typed `FinancialResultsModel`:
 
 ```python
-from nse_xbrl import parse_xbrl_sync, FinancialResultsModel
+from nse_xbrl_parser import parse_xbrl_sync, FinancialResultsModel
 
 instance = parse_xbrl_sync(xml_bytes)
 model = FinancialResultsModel.from_instance(instance)
@@ -66,7 +66,7 @@ Inspect any of the 58 NSE/BSE regulatory taxonomies:
 
 ```python
 import asyncio
-from nse_xbrl import TaxonomyRegistry, AsyncTaxonomyDownloader
+from nse_xbrl_parser import TaxonomyRegistry, AsyncTaxonomyDownloader
 
 async def main():
     registry = TaxonomyRegistry()

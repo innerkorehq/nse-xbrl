@@ -1,5 +1,5 @@
 """
-nse_xbrl.typed.shareholding
+nse_xbrl_parser.typed.shareholding
 
 High-level typed model for Regulation 31 Shareholding Pattern (SHP) filings.
 """

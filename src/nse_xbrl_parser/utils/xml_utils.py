@@ -1,5 +1,5 @@
 """
-nse_xbrl.utils.xml_utils
+nse_xbrl_parser.utils.xml_utils
 
 Utility functions for namespace stripping, XML parsing, and tag manipulation.
 """

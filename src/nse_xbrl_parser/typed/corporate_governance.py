@@ -1,5 +1,5 @@
 """
-nse_xbrl.typed.corporate_governance
+nse_xbrl_parser.typed.corporate_governance
 
 High-level typed model for Regulation 27(2) Corporate Governance filings.
 """

@@ -1,5 +1,5 @@
 """
-nse_xbrl.taxonomy.schema
+nse_xbrl_parser.taxonomy.schema
 
 XSD Taxonomy Schema Parser (elements, types, substitution groups, period types).
 """

@@ -1,5 +1,5 @@
 """
-nse_xbrl.core
+nse_xbrl_parser.core
 
 Core XBRL models, contexts, units, and asynchronous parser engine.
 """

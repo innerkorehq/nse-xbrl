@@ -1,5 +1,5 @@
 """
-nse_xbrl.taxonomy.registry
+nse_xbrl_parser.taxonomy.registry
 
 Registry of all 58 NSE & BSE XBRL Taxonomies.
 """

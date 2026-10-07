@@ -6,7 +6,7 @@
 
 ```python
 import asyncio
-from nse_xbrl import AsyncNSEClient
+from nse_xbrl_parser import AsyncNSEClient
 
 async def main():
     async with AsyncNSEClient() as client:

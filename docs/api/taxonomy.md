@@ -1,15 +1,15 @@
 # Taxonomy API Reference
 
-Taxonomy registry and metadata loader in `nse_xbrl.taxonomy`.
+Taxonomy registry and metadata loader in `nse_xbrl_parser.taxonomy`.
 
 ## Taxonomy Registry
 
 ```{eval-rst}
-.. autoclass:: nse_xbrl.taxonomy.registry.TaxonomyRegistry
+.. autoclass:: nse_xbrl_parser.taxonomy.registry.TaxonomyRegistry
    :members:
    :show-inheritance:
 
-.. autoclass:: nse_xbrl.taxonomy.registry.TaxonomyInfo
+.. autoclass:: nse_xbrl_parser.taxonomy.registry.TaxonomyInfo
    :members:
    :show-inheritance:
 ```
@@ -17,19 +17,19 @@ Taxonomy registry and metadata loader in `nse_xbrl.taxonomy`.
 ## Downloader & Linkbase
 
 ```{eval-rst}
-.. autoclass:: nse_xbrl.taxonomy.downloader.AsyncTaxonomyDownloader
+.. autoclass:: nse_xbrl_parser.taxonomy.downloader.AsyncTaxonomyDownloader
    :members:
    :show-inheritance:
 
-.. autoclass:: nse_xbrl.taxonomy.linkbase.TaxonomyLinkbase
+.. autoclass:: nse_xbrl_parser.taxonomy.linkbase.TaxonomyLinkbase
    :members:
    :show-inheritance:
 
-.. autoclass:: nse_xbrl.taxonomy.schema.TaxonomySchema
+.. autoclass:: nse_xbrl_parser.taxonomy.schema.TaxonomySchema
    :members:
    :show-inheritance:
 
-.. autoclass:: nse_xbrl.taxonomy.schema.SchemaElement
+.. autoclass:: nse_xbrl_parser.taxonomy.schema.SchemaElement
    :members:
    :show-inheritance:
 ```

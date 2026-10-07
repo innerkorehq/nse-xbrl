@@ -1,5 +1,5 @@
 import pytest
-from nse_xbrl import (
+from nse_xbrl_parser import (
     TaxonomyRegistry,
     AsyncTaxonomyDownloader,
 )

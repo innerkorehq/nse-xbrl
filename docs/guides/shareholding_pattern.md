@@ -9,7 +9,7 @@ The `ShareholdingPatternModel` adapter parses the filing and structures the brea
 ## Example Usage
 
 ```python
-from nse_xbrl import parse_file, ShareholdingPatternModel
+from nse_xbrl_parser import parse_file, ShareholdingPatternModel
 
 instance = await parse_file("TCS_SHP.xml")
 shp = ShareholdingPatternModel.from_instance(instance)

@@ -85,7 +85,7 @@ Built-in automated registry with on-demand schema (`.xsd`) and label linkbase (`
 
 ```python
 import asyncio
-from nse_xbrl import parse_file, FinancialResultsModel
+from nse_xbrl_parser import parse_file, FinancialResultsModel
 
 async def main():
     # 1. Parse any XBRL XML filing

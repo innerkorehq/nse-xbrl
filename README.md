@@ -32,10 +32,10 @@ Modern Asynchronous Python 3.14 library for parsing XBRL Filing Information acro
 
 ```bash
 # Using uv (recommended)
-uv add nse-xbrl
+uv add nse-xbrl-parser
 
 # Or with pip
-pip install nse-xbrl
+pip install nse-xbrl-parser
 ```
 
 ---
@@ -46,7 +46,7 @@ pip install nse-xbrl
 
 ```python
 import asyncio
-from nse_xbrl import parse_file, FinancialResultsModel
+from nse_xbrl_parser import parse_file, FinancialResultsModel
 
 async def main():
     # Parse any filing XML
@@ -70,7 +70,7 @@ asyncio.run(main())
 
 ```python
 import asyncio
-from nse_xbrl import TaxonomyRegistry, AsyncTaxonomyDownloader
+from nse_xbrl_parser import TaxonomyRegistry, AsyncTaxonomyDownloader
 
 async def main():
     registry = TaxonomyRegistry()
@@ -96,7 +96,7 @@ asyncio.run(main())
 ### 3. Parse Shareholding Patterns & Corporate Governance
 
 ```python
-from nse_xbrl import parse_xbrl_sync, ShareholdingPatternModel, CorporateGovernanceModel
+from nse_xbrl_parser import parse_xbrl_sync, ShareholdingPatternModel, CorporateGovernanceModel
 
 xml_content = open("TCS_SHP.xml", "rb").read()
 instance = parse_xbrl_sync(xml_content)

@@ -1,5 +1,5 @@
 """
-nse_xbrl.utils
+nse_xbrl_parser.utils
 
 Utility modules for XML and date handling.
 """

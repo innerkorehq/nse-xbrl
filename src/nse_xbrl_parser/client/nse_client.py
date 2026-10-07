@@ -1,5 +1,5 @@
 """
-nse_xbrl.client.nse_client
+nse_xbrl_parser.client.nse_client
 
 Asynchronous client for interacting with NSE corporate filings and archive downloads.
 """

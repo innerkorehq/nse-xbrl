@@ -1,5 +1,5 @@
 """
-nse_xbrl.utils.dates
+nse_xbrl_parser.utils.dates
 
 Date and quarter parsing helpers.
 """

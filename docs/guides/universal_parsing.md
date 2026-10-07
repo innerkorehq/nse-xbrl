@@ -1,6 +1,6 @@
 # Universal XBRL Parsing
 
-The Universal Parsing Engine (`nse_xbrl.core`) is the foundation of the library. It can parse any XBRL 2.1 document filed with NSE or BSE, regardless of whether a specialized typed model exists for that specific filing.
+The Universal Parsing Engine (`nse_xbrl_parser.core`) is the foundation of the library. It can parse any XBRL 2.1 document filed with NSE or BSE, regardless of whether a specialized typed model exists for that specific filing.
 
 ## How It Works
 
@@ -21,14 +21,14 @@ flowchart LR
 
 ### From a Local File
 ```python
-from nse_xbrl import parse_file
+from nse_xbrl_parser import parse_file
 
 instance = await parse_file("filing.xml")
 ```
 
 ### From Raw Bytes or Strings
 ```python
-from nse_xbrl import parse_xbrl
+from nse_xbrl_parser import parse_xbrl
 
 xml_data = b"<xbrl>...</xbrl>"
 instance = await parse_xbrl(xml_data)
@@ -38,7 +38,7 @@ instance = await parse_xbrl(xml_data)
 NSE and BSE frequently bundle filing XML files inside `.zip` archives. Use `parse_archive`:
 
 ```python
-from nse_xbrl import parse_archive
+from nse_xbrl_parser import parse_archive
 
 with open("filing_package.zip", "rb") as f:
     zip_bytes = f.read()

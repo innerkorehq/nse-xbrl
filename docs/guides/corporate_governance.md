@@ -9,7 +9,7 @@ The `CorporateGovernanceModel` adapter parses board composition, committee forma
 ## Example Usage
 
 ```python
-from nse_xbrl import parse_file, CorporateGovernanceModel
+from nse_xbrl_parser import parse_file, CorporateGovernanceModel
 
 instance = await parse_file("INFY_CG.xml")
 cg = CorporateGovernanceModel.from_instance(instance)

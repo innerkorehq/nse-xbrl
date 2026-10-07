@@ -1,5 +1,5 @@
 """
-nse_xbrl.client
+nse_xbrl_parser.client
 
 Async clients for NSE and BSE filings.
 """

@@ -1,5 +1,5 @@
 """
-nse_xbrl.taxonomy
+nse_xbrl_parser.taxonomy
 
 Taxonomy schemas, label linkbases, downloader, and full 58-taxonomy registry.
 """

@@ -1,5 +1,5 @@
 """
-nse_xbrl.core.unit
+nse_xbrl_parser.core.unit
 
 XBRL Unit representations (monetary currencies, shares, pure numbers).
 """

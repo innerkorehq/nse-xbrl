@@ -10,19 +10,19 @@
 [`uv`](https://github.com/astral-sh/uv) is the fastest Python package manager:
 
 ```bash
-uv add nse-xbrl
+uv add nse-xbrl-parser
 ```
 
 ## Installing with `pip`
 
 ```bash
-pip install nse-xbrl
+pip install nse-xbrl-parser
 ```
 
 ## Installing with `poetry`
 
 ```bash
-poetry add nse-xbrl
+poetry add nse-xbrl-parser
 ```
 
 ## Development Installation

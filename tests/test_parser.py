@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
 
-from nse_xbrl import (
+from nse_xbrl_parser import (
     parse_file,
     parse_xbrl,
     parse_xbrl_sync,

@@ -1,5 +1,5 @@
 """
-nse_xbrl.typed
+nse_xbrl_parser.typed
 
 High-level strongly typed models for standardized Indian regulatory filings.
 """

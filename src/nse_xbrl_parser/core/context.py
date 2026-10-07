@@ -1,5 +1,5 @@
 """
-nse_xbrl.core.context
+nse_xbrl_parser.core.context
 
 XBRL Context representation (entity, period, and dimensions).
 """

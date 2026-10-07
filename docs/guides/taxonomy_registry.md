@@ -5,7 +5,7 @@ The library maintains an embedded, up-to-date registry of all **58 official taxo
 ## Exploring the Registry
 
 ```python
-from nse_xbrl import TaxonomyRegistry
+from nse_xbrl_parser import TaxonomyRegistry
 
 registry = TaxonomyRegistry()
 print("Registered Taxonomies:", registry.count())
@@ -21,11 +21,11 @@ for t in voting_tax:
 
 ## Downloading Schemas and Labels
 
-`AsyncTaxonomyDownloader` handles downloading and caching official ZIP archives into `~/.cache/nse_xbrl/taxonomies/`.
+`AsyncTaxonomyDownloader` handles downloading and caching official ZIP archives into `~/.cache/nse_xbrl_parser/taxonomies/`.
 
 ```python
 import asyncio
-from nse_xbrl import TaxonomyRegistry, AsyncTaxonomyDownloader
+from nse_xbrl_parser import TaxonomyRegistry, AsyncTaxonomyDownloader
 
 async def main():
     registry = TaxonomyRegistry()

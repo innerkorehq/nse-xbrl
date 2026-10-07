@@ -18,7 +18,7 @@ Indian financial filings follow a four-context matrix:
 ## Using `FinancialResultsModel`
 
 ```python
-from nse_xbrl import parse_file, FinancialResultsModel
+from nse_xbrl_parser import parse_file, FinancialResultsModel
 
 instance = await parse_file("Q3_Results.xml")
 model = FinancialResultsModel.from_instance(instance)

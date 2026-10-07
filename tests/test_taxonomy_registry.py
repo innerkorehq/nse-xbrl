@@ -1,5 +1,5 @@
 import pytest
-from nse_xbrl import TaxonomyRegistry, TaxonomyInfo
+from nse_xbrl_parser import TaxonomyRegistry, TaxonomyInfo
 
 
 def test_taxonomy_registry_count():

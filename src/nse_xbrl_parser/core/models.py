@@ -1,5 +1,5 @@
 """
-nse_xbrl.core.models
+nse_xbrl_parser.core.models
 
 Universal XBRL fact, instance, and metadata models.
 """

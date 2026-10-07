@@ -1,5 +1,5 @@
 """
-nse_xbrl.taxonomy.linkbase
+nse_xbrl_parser.taxonomy.linkbase
 
 XBRL Linkbase Parsers:
 - Label Linkbase (*-lab.xml): human readable labels for concepts

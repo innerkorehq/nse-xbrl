@@ -1,5 +1,5 @@
 """
-nse_xbrl.core.parser
+nse_xbrl_parser.core.parser
 
 Asynchronous and synchronous universal XBRL 2.1 parser for NSE and BSE filings.
 """

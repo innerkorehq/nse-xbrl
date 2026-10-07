@@ -1,5 +1,5 @@
 """
-nse_xbrl.typed.financial_results
+nse_xbrl_parser.typed.financial_results
 
 High-level typed model for Regulation 33 Financial Results
 (Ind AS, Banking, NBFC, Insurance, Integrated Filings).
