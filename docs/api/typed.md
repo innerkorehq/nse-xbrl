@@ -1,24 +1,35 @@
 # Typed Adapters API Reference
 
-Specialized models in `nse_xbrl.typed`.
+Specialized regulatory model adapters in `nse_xbrl.typed`.
 
-## Financial Results
+## Financial Results (Regulation 33)
 
-::: nse_xbrl.typed.financial_results.FinancialResultsModel
-    options:
-      members:
-        - from_instance
+```{eval-rst}
+.. autoclass:: nse_xbrl.typed.financial_results.FinancialResultsModel
+   :members:
+   :show-inheritance:
+```
 
-## Shareholding Pattern
+## Shareholding Pattern (Regulation 31)
 
-::: nse_xbrl.typed.shareholding.ShareholdingPatternModel
-    options:
-      members:
-        - from_instance
+```{eval-rst}
+.. autoclass:: nse_xbrl.typed.shareholding.ShareholdingPatternModel
+   :members:
+   :show-inheritance:
 
-## Corporate Governance
+.. autoclass:: nse_xbrl.typed.shareholding.ShareholderCategory
+   :members:
+   :show-inheritance:
+```
 
-::: nse_xbrl.typed.corporate_governance.CorporateGovernanceModel
-    options:
-      members:
-        - from_instance
+## Corporate Governance (Regulation 27(2))
+
+```{eval-rst}
+.. autoclass:: nse_xbrl.typed.corporate_governance.CorporateGovernanceModel
+   :members:
+   :show-inheritance:
+
+.. autoclass:: nse_xbrl.typed.corporate_governance.DirectorInfo
+   :members:
+   :show-inheritance:
+```

@@ -44,7 +44,7 @@ class TaxonomyLinkbase(BaseModel):
 
     @classmethod
     def from_label_xml(cls, content: bytes | str) -> TaxonomyLinkbase:
-        """Parse a label linkbase file (*-lab.xml, *-label.xml)."""
+        """Parse a label linkbase file (``*-lab.xml``, ``*-label.xml``)."""
         root = parse_xml_tree(content)
         labels: Dict[str, str] = {}
 

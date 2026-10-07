@@ -2,32 +2,34 @@
 
 Taxonomy registry and metadata loader in `nse_xbrl.taxonomy`.
 
-## TaxonomyRegistry
+## Taxonomy Registry
 
-::: nse_xbrl.taxonomy.registry.TaxonomyRegistry
-    options:
-      members:
-        - count
-        - get_all
-        - get_by_id
-        - find_by_name
-        - get_financial_taxonomies
-        - get_shareholding_pattern_taxonomy
-        - get_corporate_governance_taxonomy
+```{eval-rst}
+.. autoclass:: nse_xbrl.taxonomy.registry.TaxonomyRegistry
+   :members:
+   :show-inheritance:
 
-::: nse_xbrl.taxonomy.registry.TaxonomyInfo
+.. autoclass:: nse_xbrl.taxonomy.registry.TaxonomyInfo
+   :members:
+   :show-inheritance:
+```
 
 ## Downloader & Linkbase
 
-::: nse_xbrl.taxonomy.downloader.AsyncTaxonomyDownloader
-    options:
-      members:
-        - download_taxonomy_archive
-        - load_taxonomy_metadata
+```{eval-rst}
+.. autoclass:: nse_xbrl.taxonomy.downloader.AsyncTaxonomyDownloader
+   :members:
+   :show-inheritance:
 
-::: nse_xbrl.taxonomy.linkbase.TaxonomyLinkbase
-    options:
-      members:
-        - get_label
+.. autoclass:: nse_xbrl.taxonomy.linkbase.TaxonomyLinkbase
+   :members:
+   :show-inheritance:
 
-::: nse_xbrl.taxonomy.schema.TaxonomySchema
+.. autoclass:: nse_xbrl.taxonomy.schema.TaxonomySchema
+   :members:
+   :show-inheritance:
+
+.. autoclass:: nse_xbrl.taxonomy.schema.SchemaElement
+   :members:
+   :show-inheritance:
+```

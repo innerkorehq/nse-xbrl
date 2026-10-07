@@ -2,37 +2,42 @@
 
 Universal models and parsing engine in `nse_xbrl.core`.
 
-## Functions
+## High-Level Parsing Functions
 
-::: nse_xbrl.core.parser.AsyncXBRLParser
-    options:
-      members:
-        - parse
-        - parse_file
-        - parse_zip
-        - parse_sync
+```{eval-rst}
+.. autofunction:: nse_xbrl.parse_xbrl
 
-::: nse_xbrl.parse_xbrl
+.. autofunction:: nse_xbrl.parse_file
 
-::: nse_xbrl.parse_file
+.. autofunction:: nse_xbrl.parse_archive
 
-::: nse_xbrl.parse_archive
+.. autofunction:: nse_xbrl.parse_xbrl_sync
+```
 
-::: nse_xbrl.parse_xbrl_sync
+## Parsing Engine
 
-## Models
+```{eval-rst}
+.. autoclass:: nse_xbrl.core.parser.AsyncXBRLParser
+   :members:
+   :show-inheritance:
+```
 
-::: nse_xbrl.core.models.XBRLInstance
-    options:
-      members:
-        - get_facts_by_tag
-        - get_fact_value
-        - get_fact_float
-        - search_facts
-        - to_dict
+## Universal Models
 
-::: nse_xbrl.core.models.XBRLFact
+```{eval-rst}
+.. autoclass:: nse_xbrl.core.models.XBRLInstance
+   :members:
+   :show-inheritance:
 
-::: nse_xbrl.core.context.XBRLContext
+.. autoclass:: nse_xbrl.core.models.XBRLFact
+   :members:
+   :show-inheritance:
 
-::: nse_xbrl.core.unit.XBRLUnit
+.. autoclass:: nse_xbrl.core.context.XBRLContext
+   :members:
+   :show-inheritance:
+
+.. autoclass:: nse_xbrl.core.unit.XBRLUnit
+   :members:
+   :show-inheritance:
+```
